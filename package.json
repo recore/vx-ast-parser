@@ -1,0 +1,35 @@
+{
+  "name": "vx-ast-parser",
+  "version": "0.8.0",
+  "description": "AST Parser for VisionX",
+  "main": "lib/parser.js",
+  "scripts": {
+    "build": "rollup -c --environment INCLUDE_DEPS,BUILD:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recore/vx-ast-parser.git"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "author": "onbing",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.2.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.2.0",
+    "@babel/plugin-transform-flow-strip-types": "^7.2.3",
+    "@babel/plugin-transform-for-of": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "babel-plugin-transform-charcodes": "^0.1.1",
+    "charcodes": "^0.1.1",
+    "rollup": "^0.60.7",
+    "rollup-plugin-babel": "^4.3.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  },
+  "dependencies": {}
+}
